@@ -1,4 +1,4 @@
-s# Pre-tokenization of Multi-word Expressions in Cross-lingualWord Embeddings
+# Pre-tokenization of Multi-word Expressions in Cross-lingualWord Embeddings
 
 This repository contains the data and code created in our work "[Pre-tokenization of Multi-word Expressions in Cross-lingualWord Embeddings](https://www.aclweb.org/anthology/2020.emnlp-main.360/)".
 
@@ -7,7 +7,7 @@ This repository contains the data and code created in our work "[Pre-tokenizatio
 
 We describe below how to build (1) MWE lists that are used for identifying MWEs in texts and (2) bilingual dictionaries that are used for evaluate cross-lingual mappings of MWEs. The same method can be easily applied to language pairs that are not covered in our paper (e.g., en-fr).
 
-# Dependencies
+### Dependencies
 
 - [OpenCC](https://github.com/BYVoid/OpenCC) (for converting Chinese characters; follow the instruction to install OpenCC)
 - Python libraries: `spacy-udpipe`, `mecab-python3` (for tokenizing texts. `mecab` for Japanese)
